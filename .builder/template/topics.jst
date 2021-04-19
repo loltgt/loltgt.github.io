@@ -1,0 +1,11 @@
+<div class="section topics">
+<div class="section-head">
+<h2>Topics</h2>
+<p class="section-text">Topics that I want to learn more about.</p>
+</div>
+<div class="cards topics">
+<% for (const topic of topics) { %>
+<%= _.template(cards.topic)({ ...obj, topic }) %>
+<% } %>
+</div>
+</div>

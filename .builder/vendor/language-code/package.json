@@ -1,0 +1,12 @@
+{
+  "name": "language-code",
+  "version": "1.0",
+  "description": "It makes a file data for language code colors.",
+  "main": "language.js",
+  "private": true,
+  "author": "Leonardo Laureti",
+  "license": "MIT",
+  "devDependencies": {
+    "yaml": "^1.10.2"
+  }
+}

@@ -1,6 +1,38 @@
+
+
+Icons font
+for @loltgt/entanglement-gh
+
+mono color
+130 glyphs
+
+
+
+
+Includes:
+
+Open Iconic (selection)
+License: MIT
+Designer URL: https://useiconic.com/open
+Repository URL: https://github.com/iconic/open-iconic
+
+
+IcoMoon - Free (selection)
+License: GPL and CC BY 4.0
+Designer URL: https://icomoon.io/preview-free.html
+Repository URL: https://github.com/Keyamoon/IcoMoon-Free
+
+
+
+License:
+
+
+Open Iconic
+
+
 The MIT License (MIT)
 
-Copyright (c) 2019 GitHub
+Copyright (c) 2014 Waybury
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +51,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+
+
+IcoMoon - Free
+
+
+You can use this package under one of these two licenses: CC BY 4.0 or GPL.
+
+http://creativecommons.org/licenses/by/4.0/
+http://www.gnu.org/licenses/gpl.html
+
+

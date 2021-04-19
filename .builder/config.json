@@ -1,0 +1,21 @@
+{
+  "username": "loltgt",
+  "theme": "light",
+  "layout": ["profile", "repos"],
+  "profile": {
+    "realname": false,
+    "location": false,
+    "socials": true
+  },
+  "repos": {
+    "limit": 6,
+    "include": ["ensemble-lightbox", "ensemble-modal", "ensemble-social-share", "entanglement-gh", "theme", "theme-codename"]
+  },
+  "socials": {
+    "website": "#"
+  },
+  "topics": [],
+  "src_folder": "./src",
+  "output_folder": "../",
+  "assets_folder": "../assets"
+}

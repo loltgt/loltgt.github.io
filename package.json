@@ -1,0 +1,15 @@
+{
+  "name": "loltgt.github.io",
+  "version": "1.0.0",
+  "description": "https://loltgt.github.io",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loltgt/loltgt.github.io.git"
+  },
+  "author": "Leonardo Laureti",
+  "license": "MIT",
+  "devDependencies": {
+    "@loltgt/entanglement-gh": "git+https://github.com/loltgt/entanglement-gh.git"
+  }
+}

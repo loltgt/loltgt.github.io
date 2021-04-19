@@ -1,0 +1,11 @@
+<div class="section repos">
+<div class="section-head">
+<h2>Repositories</h2>
+<p class="section-text">GitHub repositories that I've built.</p>
+</div>
+<div class="cards repos">
+<% for (const repo of repos) { %>
+<%= _.template(cards.repo)({ ...obj, repo }) %>
+<% } %>
+</div>
+</div>

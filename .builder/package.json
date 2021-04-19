@@ -1,0 +1,28 @@
+{
+  "name": "entanglement-gh",
+  "version": "0.0.1",
+  "description": "Custom builder for personal GitHub profile site.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "build-js": "node index.js js",
+    "build-css": "node index.js css",
+    "build-html": "node index.js html",
+    "watch": "node index.js watch",
+    "watch-js": "node index.js watch js",
+    "watch-css": "node index.js watch css",
+    "watch-html": "node index.js watch html",
+    "copy-icons": "mkdir -p ../assets; cp -R ./vendor/icons/fonts ../assets",
+    "copy-language-code": "cp ./vendor/language-code/language-code.json ./data",
+    "make-language-code": "node ./vendor/language-code/language.js"
+  },
+  "author": "Leonardo Laureti",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css": "^5.1.2",
+    "glob": "^7.1.6",
+    "http-server": "^0.12.3",
+    "lodash": "^4.17.21",
+    "terser": "^5.6.1"
+  }
+}

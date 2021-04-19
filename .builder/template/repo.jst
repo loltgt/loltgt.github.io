@@ -1,0 +1,16 @@
+<div class="card repo">
+<div class="card-head">
+<h3 class="card_title">
+<span class="icon icon-book"></span>
+<a class="card_link" href="<%= repo.html_url %>"><%= repo.name %></a>
+</h3>
+</div>
+<div class="card-text">
+<p class="card_description"><%= repo.description %></p>
+</div>
+<div class="card-foot">
+<% if (repo.language) { %><span class="card_lang-code lang-code-<%= repo.language.toLowerCase().replace(/\s/g, '-').replace(/\+/g, '-plus').replace(/#/g, '-sharp') %>"<% if (repo.language in languageCode) { %> style="background-color: <%= languageCode[repo.language] %>;"<% } %>><%= repo.language %></span><% } %>
+<span class="card_stargazers"><a href="<%= repo.html_url %>/stargazers"><span class="icon icon-star"></span> <%= repo.stargazers_count %></a></span>
+<span class="card_forks"><a href="<%= repo.html_url %>/network/members"><span class="icon icon-fork"></span> <%= repo.forks_count %></a></span>
+</div>
+</div>

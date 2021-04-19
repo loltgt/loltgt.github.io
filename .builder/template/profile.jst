@@ -1,0 +1,38 @@
+<div class="profile">
+<div class="profile-head">
+<div class="profile_picture">
+<img src="<%= user.avatar_url %>" alt="Avatar">
+</div>
+<h1 class="profile_username"><%= username %></h1>
+<% if (profile.realname) { %>
+<span class="profile_realname"><%= user.name %></span>
+<% } %>
+</div>
+<div class="profile-extended">
+<div class="profile_link">
+<span class="icon icon-github"></span>
+<a href="<%= user.html_url %>">@<%= username %></a>
+</div>
+<% if (profile.location && user.location !== '') { %>
+<span class="profile_location"><span class="icon icon-map-marker"></span> <%= user.location %></span>
+<% } %>
+<% if (profile.bio && profile.bio !== '') { %>
+<p class="profile_bio"><%= profile.bio %></p>
+<% } %>
+<% if (profile.hirable && user.hirable !== false) { %>
+<span class="profile_hirable"><%= typeof user.hirable == 'string' ? user.hirable : 'Available for hire' %></span>
+<% } %>
+</div>
+<% if (profile.socials && socials.length) { %>
+<div class="profile_socials">
+<ul class="profile_socials_list">
+<% for (var social of socials) { %>
+<li class="profile_socials_item"><a href="<%= social.url %>" title="<%= social.name %>" rel="noopener" target="_blank">
+<span class="icon <%= social.icon %>"></span>
+<span class="label"><%= social.name %></a>
+</li>
+<% } %>
+</ul>
+</div>
+<% } %>
+</div>
