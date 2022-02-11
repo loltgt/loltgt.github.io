@@ -12,7 +12,7 @@
     "include": ["ensemble-lightbox", "ensemble-modal", "ensemble-social-share", "entanglement-gh", "theme", "theme-codename"]
   },
   "socials": {
-    "website": "#"
+    "website": "https://loltgt.ml"
   },
   "topics": [],
   "src_folder": "./src",
