@@ -11,9 +11,6 @@
     "limit": 6,
     "include": ["ensemble-lightbox", "ensemble-modal", "ensemble-social-share", "entanglement-gh"]
   },
-  "socials": {
-    "website": "https://ctlcltd.github.io"
-  },
   "topics": [],
   "src_folder": "./src",
   "output_folder": "../",
