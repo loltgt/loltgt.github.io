@@ -9,7 +9,7 @@
   },
   "repos": {
     "limit": 6,
-    "include": ["ensemble-lightbox", "ensemble-modal", "ensemble-social-share", "entanglement-gh"]
+    "include": ["ensemble-lightbox", "ensemble-social-share", "ensemble-modal"]
   },
   "topics": [],
   "src_folder": "./src",
