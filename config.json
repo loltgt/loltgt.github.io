@@ -9,7 +9,7 @@
   },
   "repos": {
     "limit": 6,
-    "include": ["ensemble-lightbox", "ensemble-social-share", "ensemble-modal"]
+    "include": ["ensemble-lightbox", "ensemble-social-share", "ensemble-modal", "ensemble"]
   },
   "topics": [],
   "src_folder": "./src",
